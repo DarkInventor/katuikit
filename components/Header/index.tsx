@@ -35,7 +35,7 @@ const Header = () => {
           : ""
       }`}
     >
-      <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
+      <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0 sm:mb-[10px]">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
@@ -43,14 +43,14 @@ const Header = () => {
               alt="logo"
               width={119.03}
               height={30}
-              className="hidden w-full dark:block"
+              className="hidden w-45 dark:block"
             />
             <Image
               src="/images/logo/light-logo.svg"
               alt="logo"
               width={119.03}
-              height={20}
-              className="w-full dark:hidden"
+              height={30}
+              className="w-45 dark:hidden"
             />
           </a>
 

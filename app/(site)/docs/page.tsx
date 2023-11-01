@@ -23,7 +23,7 @@ export default function DocsPage() {
 
             <div className="w-full px-4 lg:w-3/4">
               <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-                <h1>Welcome to Startup Documentation</h1>
+                <h1>Pop-up modal built using React + Tailwind CSS + Daisy UI</h1>
 
                 <p className="text-body-color dark:text-body-color-dark text-base">
                   This document serves as a simple template to showcase a sample
@@ -40,6 +40,9 @@ export default function DocsPage() {
                   to check out the real docs, setup guide and even video
                   instructions
                 </p>
+                <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px] flex">
+                  <h1>Component1</h1>       
+                  </div>
               </div>
             </div>
           </div>

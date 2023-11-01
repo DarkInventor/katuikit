@@ -36,7 +36,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "components/Docs/style-guide.mdx"  ],
   "exclude": [
     "node_modules"
   ]

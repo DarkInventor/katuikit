@@ -9,25 +9,25 @@ const SidebarLink = () => {
           href={`/docs`}
           className={`flex w-full rounded-sm bg-stroke px-3 py-2 text-base text-black dark:bg-blackho dark:text-white`}
         >
-          Introduction
+          Popup Modal
         </Link>
         <Link
           href={`/docs`}
           className={`flex w-full rounded-sm px-3 py-2 text-base text-black dark:text-white `}
         >
-          Bootstrap Template Guide
+          Menubar
+        </Link>
+        <Link
+          href={`/d ocs`}
+          className={`flex w-full rounded-sm px-3 py-2 text-base text-black dark:text-white `}
+        >
+          Image
         </Link>
         <Link
           href={`/docs`}
           className={`flex w-full rounded-sm px-3 py-2 text-base text-black dark:text-white `}
         >
-          Style Guide
-        </Link>
-        <Link
-          href={`/docs`}
-          className={`flex w-full rounded-sm px-3 py-2 text-base text-black dark:text-white `}
-        >
-          Using Tailwind Components
+          Card
         </Link>
       </li>
     </>

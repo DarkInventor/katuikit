@@ -3,10 +3,10 @@ import { Blog } from "@/types/blog";
 const BlogData: Blog[] = [
   {
     _id: 1,
-    mainImage: "/images/blog/blog-01.png",
-    title: "Free advertising for your online business",
+    mainImage: "/images/blog/popup-modal.png",
+    title: "Popup Modal using React + Tailwind CSS + Daisy UI",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Popup Modal built Using React + Tailwind CSS + Daisy UI",
   },
   {
     _id: 2,
@@ -38,7 +38,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: 2,
-    mainImage: "/images/blog/blog-01.png",
+    mainImage: "/images/blog/popup-modal.png",
     title: "Tips to quickly improve your coding speed.",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",

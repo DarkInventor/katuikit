@@ -54,19 +54,19 @@ const SingleBlogPage = async () => {
 
                 <ul>
                   <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">Blog</a>
+                    <a href="#">Components</a>
                   </li>
                   <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">Events</a>
+                    <a href="#">Building Blocks</a>
                   </li>
                   <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">Grids</a>
+                    <a href="#">Waitlist Pages</a>
                   </li>
                   <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">News</a>
+                    <a href="#">Landing Pages</a>
                   </li>
                   <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">Rounded</a>
+                    <a href="#">Full Templates</a>
                   </li>
                 </ul>
               </div>
@@ -79,7 +79,7 @@ const SingleBlogPage = async () => {
                 <div className="mb-10 w-full overflow-hidden ">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                     <Image
-                      src={"/images/blog/blog-01.png"}
+                      src={"/images/blog/popup-modal.png"}
                       alt="Kobe Steel plant that supplied"
                       fill
                       className="rounded-md object-cover object-center"
@@ -88,25 +88,25 @@ const SingleBlogPage = async () => {
                 </div>
 
                 <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                  Kobe Steel plant that supplied
+                  Popup Modal using React + Tailwind CSS + Daisy UI 
                 </h2>
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
-                    <span className="text-black dark:text-white">Author: </span>{" "}
-                    Jhon Doe
+                    <span className="text-black dark:text-white">Dev: </span>{" "}
+                    Kathan Mehta
                   </li>
-                  <li>
+                  {/* <li>
                     <span className="text-black dark:text-white">
                       Published On: July 30, 2023
                     </span>{" "}
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <span className="text-black dark:text-white">
                       Category:
                     </span>
                     Events
-                  </li>
+                  </li> */}
                 </ul>
 
                 <div className="blog-details">
@@ -132,7 +132,7 @@ const SingleBlogPage = async () => {
 
                   <div className="flex flex-wrap gap-5">
                     <Image
-                      src={"/images/blog/blog-01.png"}
+                      src={"/images/blog/popup-modal.png"}
                       width={350}
                       height={200}
                       alt="image"

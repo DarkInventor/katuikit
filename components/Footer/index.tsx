@@ -32,21 +32,21 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="/images/logo/light-logo.svg"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/images/logo/dark-logo.svg"
                     alt="Logo"
                     className="hidden dark:block"
                   />
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Collection of React + Tailwind based Components, Building Blocks, Waitlist Pages, Landing Pages and Full Templates
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
@@ -56,7 +56,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  ktmehta25@gmail.com
                 </a>
               </motion.div>
 
@@ -94,23 +94,23 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#features"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Product
+                        Features
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/docs"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Careers
+                        Components
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#pricing"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Pricing
@@ -119,7 +119,7 @@ const Footer = () => {
                   </ul>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                   variants={{
                     hidden: {
                       opacity: 0,
@@ -136,12 +136,12 @@ const Footer = () => {
                   transition={{ duration: 1, delay: 0.1 }}
                   viewport={{ once: true }}
                   className="animate_top"
-                >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
+                > */}
+                  {/* <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
                     Support
-                  </h4>
+                  </h4> */}
 
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a
                         href="#"
@@ -174,8 +174,8 @@ const Footer = () => {
                         Contact Us
                       </a>
                     </li>
-                  </ul>
-                </motion.div>
+                  </ul> */}
+                {/* </motion.div> */}
 
                 <motion.div
                   variants={{
@@ -196,26 +196,26 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Newsletter
+                    Lifetime Access
                   </h4>
-                  <p className="mb-4 w-[90%]">
-                    Subscribe to receive future updates
-                  </p>
+                  {/* <p className="mb-4 w-[90%]">
+                    Get the Lifetime Access of Kat UI
+                  </p> */}
 
-                  <form action="#">
+                  <form action="/#pricing">
                     <div className="relative">
-                      <input
+                      {/* <input
                         type="text"
                         placeholder="Email address"
                         className="w-full rounded-full border border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
-                      />
+                      /> */}
 
                       <button
                         aria-label="signup to newsletter"
-                        className="absolute right-0 p-4"
-                      >
+                        className="relative right-0 p-4 bg-transparent hover:bg-blue-500 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+                      >  Get the Lifetime Access of Kat UI  
                         <svg
-                          className="fill-[#757693] hover:fill-primary dark:fill-white"
+                          className="fill-[#757693] hover:fill-primary dark:fill-white" 
                           width="20"
                           height="20"
                           viewBox="0 0 20 20"
@@ -269,16 +269,16 @@ const Footer = () => {
                     English
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#" className="hover:text-primary">
                     Privacy Policy
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a href="#" className="hover:text-primary">
                     Support
                   </a>
-                </li>
+                </li> */}
               </ul>
             </motion.div>
 
@@ -301,7 +301,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} Kat UI. All rights reserved
               </p>
             </motion.div>
 
@@ -324,7 +324,7 @@ const Footer = () => {
               className="animate_top"
             >
               <ul className="flex items-center gap-5">
-                <li>
+                {/* <li>
                   <a href="#" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
@@ -347,9 +347,9 @@ const Footer = () => {
                       </defs>
                     </svg>
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://twitter.com/kathanmehtaa" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"
@@ -373,7 +373,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://www.linkedin.com/in/iamkathan/" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"
@@ -396,7 +396,7 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
@@ -415,7 +415,7 @@ const Footer = () => {
                       </defs>
                     </svg>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </motion.div>
           </div>

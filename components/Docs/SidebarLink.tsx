@@ -18,7 +18,7 @@ const SidebarLink = () => {
           Menubar
         </Link>
         <Link
-          href={`/d ocs`}
+          href={`docs`}
           className={`flex w-full rounded-sm px-3 py-2 text-base text-black dark:text-white `}
         >
           Image

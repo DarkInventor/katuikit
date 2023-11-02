@@ -12,6 +12,8 @@ const Signup = () => {
     password: "",
   });
 
+  console.log(data);  
+
   return (
     <>
       {/* <!-- ===== SignUp Form Start ===== --> */}

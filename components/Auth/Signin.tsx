@@ -10,6 +10,9 @@ const Signin = () => {
     password: "",
   });
 
+  console.log(data.email);  
+  console.log(data.password);
+
   return (
     <>
       {/* <!-- ===== SignIn Form Start ===== --> */}

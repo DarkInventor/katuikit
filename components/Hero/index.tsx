@@ -34,7 +34,7 @@ const Hero = () => {
                   <div className="flex flex-wrap gap-5">
                   <Link
                       aria-label="get started button"
-                      href="/auth/signin"
+                      href="/#pricing"
                       className="flex rounded-full bg-sky-300 px-7.5 py-2.5 text-black duration-300 ease-in-out hover:bg-blackho dark:bg-white dark:hover:bg-gray"
                     >
                       Get Lifetime Access

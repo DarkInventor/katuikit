@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { collection, addDoc } from "firebase/firestore";
+import {db} from "./firebase";
 
 const Signup = () => {
   const [data, setData] = useState({
@@ -12,7 +14,22 @@ const Signup = () => {
     password: "",
   });
 
-  console.log(data);  
+  //ADD data into the Database
+  const addData = async (e) => {
+    e.preventDefault();
+
+    if(data.firstName!== '' && data.lastName!== '' && data.email!== '' && data.password !== '') {
+      await addDoc(collection(db, 'users'), {
+        firstName: data.firstName.trim(),
+        lastName: data.lastName.trim(),
+        email: data.email.trim(),
+        password: data.password.trim(),
+      })
+      console.log("Hii, ", data.firstName);
+    }
+  }
+
+  // console.log(data);  
 
   return (
     <>
@@ -208,6 +225,7 @@ const Signup = () => {
 
                 <button
                   aria-label="signup with email and password"
+                  onClick={addData}
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                 >
                   Create Account

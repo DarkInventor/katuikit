@@ -1,3 +1,4 @@
+"use client";
 import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
@@ -12,6 +13,7 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import { signOut, useSession } from 'next-auth/react';
 
 export const metadata: Metadata = {
   title: "Kat UI - Collection of Components + Templates built using React",
@@ -20,6 +22,7 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  const session = useSession(); 
   return (
     <main>
       <Hero />

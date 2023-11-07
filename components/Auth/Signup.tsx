@@ -5,6 +5,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
 import {db} from "./firebase";
+import Signin from "./Signin";
+import { signIn } from 'next-auth/react';
 
 const Signup = () => {
   const [data, setData] = useState({
@@ -225,7 +227,7 @@ const Signup = () => {
 
                 <button
                   aria-label="signup with email and password"
-                  onClick={addData}
+                  onClick={() => signIn('google')}
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                 >
                   Create Account
